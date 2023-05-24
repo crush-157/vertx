@@ -1,0 +1,2674 @@
+[
+{
+  "name":"[Ljava.lang.String;"
+},
+{
+  "name":"com.example.starter.MainVerticle",
+  "allDeclaredConstructors": true,
+  "allDeclaredMethods": true
+},
+{
+  "name":"com.google.common.util.concurrent.AbstractFuture",
+  "fields":[
+    {"name":"listeners"}, 
+    {"name":"value"}, 
+    {"name":"waiters"}
+  ]
+},
+{
+  "name":"com.google.common.util.concurrent.AbstractFuture$Waiter",
+  "fields":[
+    {"name":"next"}, 
+    {"name":"thread"}
+  ]
+},
+{
+  "name":"com.google.inject.AbstractModule",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"com.google.inject.Binder",
+  "methods":[{"name":"bindListener","parameterTypes":["com.google.inject.matcher.Matcher","com.google.inject.spi.ProvisionListener[]"] }]
+},
+{
+  "name":"com.google.inject.internal.Annotations",
+  "methods":[{"name":"determineWhetherToQuote","parameterTypes":[] }]
+},
+{
+  "name":"com.google.inject.internal.InjectorShell$RootModule",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"com.google.inject.matcher.AbstractMatcher",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"com.google.inject.name.Named",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"com.google.inject.spi.ElementSource",
+  "methods":[{"name":"getDeclaringSource","parameterTypes":[] }]
+},
+{
+  "name":"com.google.inject.spi.ProviderInstanceBinding",
+  "methods":[{"name":"getUserSuppliedProvider","parameterTypes":[] }]
+},
+{
+  "name":"com.google.inject.util.Modules$EmptyModule",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"com.google.inject.util.Providers$ConstantProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"io.netty.bootstrap.ServerBootstrap$1"
+},
+{
+  "name":"io.netty.bootstrap.ServerBootstrap$ServerBootstrapAcceptor",
+  "methods":[
+    {"name":"channelRead","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.lang.Object"] }, 
+    {"name":"exceptionCaught","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.lang.Throwable"] }
+  ]
+},
+{
+  "name":"io.netty.buffer.AbstractByteBufAllocator",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"io.netty.buffer.AbstractReferenceCountedByteBuf",
+  "fields":[{"name":"refCnt"}]
+},
+{
+  "name":"io.netty.channel.ChannelDuplexHandler",
+  "methods":[
+    {"name":"bind","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.net.SocketAddress","io.netty.channel.ChannelPromise"] }, 
+    {"name":"close","parameterTypes":["io.netty.channel.ChannelHandlerContext","io.netty.channel.ChannelPromise"] }, 
+    {"name":"connect","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.net.SocketAddress","java.net.SocketAddress","io.netty.channel.ChannelPromise"] }, 
+    {"name":"deregister","parameterTypes":["io.netty.channel.ChannelHandlerContext","io.netty.channel.ChannelPromise"] }, 
+    {"name":"disconnect","parameterTypes":["io.netty.channel.ChannelHandlerContext","io.netty.channel.ChannelPromise"] }, 
+    {"name":"flush","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, 
+    {"name":"read","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, 
+    {"name":"write","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.lang.Object","io.netty.channel.ChannelPromise"] }
+  ]
+},
+{
+  "name":"io.netty.channel.ChannelHandlerAdapter",
+  "methods":[{"name":"exceptionCaught","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.lang.Throwable"] }]
+},
+{
+  "name":"io.netty.channel.ChannelInboundHandlerAdapter",
+  "methods":[
+    {"name":"channelActive","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, 
+    {"name":"channelInactive","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, 
+    {"name":"channelRead","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.lang.Object"] }, 
+    {"name":"channelReadComplete","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, 
+    {"name":"channelRegistered","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, 
+    {"name":"channelUnregistered","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, 
+    {"name":"channelWritabilityChanged","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, 
+    {"name":"exceptionCaught","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.lang.Throwable"] }, 
+    {"name":"userEventTriggered","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.lang.Object"] }
+  ]
+},
+{
+  "name":"io.netty.channel.ChannelInitializer",
+  "methods":[
+    {"name":"channelRegistered","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, 
+    {"name":"exceptionCaught","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.lang.Throwable"] }
+  ]
+},
+{
+  "name":"io.netty.channel.ChannelOutboundHandlerAdapter",
+  "methods":[
+    {"name":"bind","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.net.SocketAddress","io.netty.channel.ChannelPromise"] }, 
+    {"name":"close","parameterTypes":["io.netty.channel.ChannelHandlerContext","io.netty.channel.ChannelPromise"] }, 
+    {"name":"connect","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.net.SocketAddress","java.net.SocketAddress","io.netty.channel.ChannelPromise"] }, 
+    {"name":"deregister","parameterTypes":["io.netty.channel.ChannelHandlerContext","io.netty.channel.ChannelPromise"] }, 
+    {"name":"disconnect","parameterTypes":["io.netty.channel.ChannelHandlerContext","io.netty.channel.ChannelPromise"] }, 
+    {"name":"flush","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, 
+    {"name":"read","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }
+  ]
+},
+{
+  "name":"io.netty.channel.DefaultChannelPipeline$HeadContext",
+  "methods":[
+    {"name":"bind","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.net.SocketAddress","io.netty.channel.ChannelPromise"] }, 
+    {"name":"channelActive","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, 
+    {"name":"channelInactive","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, 
+    {"name":"channelRead","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.lang.Object"] }, 
+    {"name":"channelReadComplete","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, 
+    {"name":"channelRegistered","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, 
+    {"name":"channelUnregistered","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, 
+    {"name":"channelWritabilityChanged","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, 
+    {"name":"close","parameterTypes":["io.netty.channel.ChannelHandlerContext","io.netty.channel.ChannelPromise"] }, 
+    {"name":"connect","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.net.SocketAddress","java.net.SocketAddress","io.netty.channel.ChannelPromise"] }, 
+    {"name":"deregister","parameterTypes":["io.netty.channel.ChannelHandlerContext","io.netty.channel.ChannelPromise"] }, 
+    {"name":"disconnect","parameterTypes":["io.netty.channel.ChannelHandlerContext","io.netty.channel.ChannelPromise"] }, 
+    {"name":"exceptionCaught","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.lang.Throwable"] }, 
+    {"name":"flush","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, 
+    {"name":"read","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, 
+    {"name":"userEventTriggered","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.lang.Object"] }, 
+    {"name":"write","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.lang.Object","io.netty.channel.ChannelPromise"] }
+  ]
+},
+{
+  "name":"io.netty.channel.DefaultChannelPipeline$TailContext",
+  "methods":[
+    {"name":"channelActive","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, 
+    {"name":"channelInactive","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, 
+    {"name":"channelRead","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.lang.Object"] }, 
+    {"name":"channelReadComplete","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, 
+    {"name":"channelRegistered","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, 
+    {"name":"channelUnregistered","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, 
+    {"name":"channelWritabilityChanged","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, 
+    {"name":"exceptionCaught","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.lang.Throwable"] }, 
+    {"name":"userEventTriggered","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.lang.Object"] }
+  ]
+},
+{
+  "name":"io.netty.handler.codec.ByteToMessageDecoder",
+  "methods":[
+    {"name":"channelInactive","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, 
+    {"name":"channelRead","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.lang.Object"] }, 
+    {"name":"channelReadComplete","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }
+  ]
+},
+{
+  "name":"io.netty.handler.codec.http.HttpObjectDecoder",
+  "methods":[{"name":"userEventTriggered","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.lang.Object"] }]
+},
+{
+  "name":"io.netty.handler.codec.http.HttpObjectEncoder",
+  "methods":[{"name":"write","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.lang.Object","io.netty.channel.ChannelPromise"] }]
+},
+{
+  "name":"io.netty.handler.codec.http.websocketx.extensions.WebSocketServerExtensionHandler",
+  "methods":[
+    {"name":"channelRead","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.lang.Object"] }, 
+    {"name":"write","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.lang.Object","io.netty.channel.ChannelPromise"] }
+  ]
+},
+{
+  "name":"io.netty.util.ReferenceCountUtil",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"io.netty.util.internal.shaded.org.jctools.queues.BaseMpscLinkedArrayQueueColdProducerFields",
+  "fields":[{"name":"producerLimit"}]
+},
+{
+  "name":"io.netty.util.internal.shaded.org.jctools.queues.BaseMpscLinkedArrayQueueConsumerFields",
+  "fields":[{"name":"consumerIndex"}]
+},
+{
+  "name":"io.netty.util.internal.shaded.org.jctools.queues.BaseMpscLinkedArrayQueueProducerFields",
+  "fields":[{"name":"producerIndex"}]
+},
+{
+  "name":"io.netty.util.internal.shaded.org.jctools.queues.MpscArrayQueueConsumerIndexField",
+  "fields":[{"name":"consumerIndex"}]
+},
+{
+  "name":"io.netty.util.internal.shaded.org.jctools.queues.MpscArrayQueueProducerIndexField",
+  "fields":[{"name":"producerIndex"}]
+},
+{
+  "name":"io.netty.util.internal.shaded.org.jctools.queues.MpscArrayQueueProducerLimitField",
+  "fields":[{"name":"producerLimit"}]
+},
+{
+  "name":"io.vertx.core.Launcher",
+  "methods":[{"name":"main","parameterTypes":["java.lang.String[]"] }]
+},
+{
+  "name":"io.vertx.core.http.impl.Http1xOrH2CHandler",
+  "methods":[{"name":"channelRead","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.lang.Object"] }]
+},
+{
+  "name":"io.vertx.core.http.impl.Http1xUpgradeToH2CHandler",
+  "methods":[
+    {"name":"channelRead","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.lang.Object"] }, 
+    {"name":"userEventTriggered","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.lang.Object"] }
+  ]
+},
+{
+  "name":"io.vertx.core.http.impl.HttpServerWorker$1",
+  "methods":[
+    {"name":"exceptionCaught","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.lang.Throwable"] }, 
+    {"name":"userEventTriggered","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.lang.Object"] }
+  ]
+},
+{
+  "name":"io.vertx.core.http.impl.VertxHttpRequestDecoder"
+},
+{
+  "name":"io.vertx.core.http.impl.VertxHttpResponseEncoder"
+},
+{
+  "name":"io.vertx.core.impl.launcher.commands.BareCommand",
+  "queryAllPublicMethods":true,
+  "methods":[
+    {"name":"setClusterPort","parameterTypes":["int"] }, 
+    {"name":"setClusterPublicPort","parameterTypes":["int"] }, 
+    {"name":"setHAGroup","parameterTypes":["java.lang.String"] }, 
+    {"name":"setQuorum","parameterTypes":["int"] }
+  ]
+},
+{
+  "name":"io.vertx.core.impl.launcher.commands.ListCommand",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"io.vertx.core.impl.launcher.commands.RunCommand",
+  "allDeclaredConstructors": true,
+  "allDeclaredMethods": true
+},
+{
+  "name":"io.vertx.core.impl.launcher.commands.StartCommand",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"io.vertx.core.impl.launcher.commands.StopCommand",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"io.vertx.core.impl.launcher.commands.VersionCommand",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"io.vertx.core.impl.launcher.commands.VertxIsolatedDeployer",
+  "allDeclaredConstructors": true,
+  "allDeclaredMethods": true
+},
+{
+  "name":"io.vertx.core.logging.Log4j2LogDelegateFactory",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.vertx.core.logging.SLF4JLogDelegateFactory"
+},
+{
+  "name":"io.vertx.core.net.impl.ServerChannelLoadBalancer"
+},
+{
+  "name":"io.vertx.core.net.impl.VertxHandler",
+  "methods":[
+    {"name":"channelInactive","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, 
+    {"name":"channelRead","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.lang.Object"] }, 
+    {"name":"channelReadComplete","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, 
+    {"name":"channelWritabilityChanged","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, 
+    {"name":"close","parameterTypes":["io.netty.channel.ChannelHandlerContext","io.netty.channel.ChannelPromise"] }, 
+    {"name":"exceptionCaught","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.lang.Throwable"] }, 
+    {"name":"userEventTriggered","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.lang.Object"] }
+  ]
+},
+{
+  "name":"io.vertx.core.spi.launcher.DefaultCommand",
+  "methods":[{"name":"setSystemProps","parameterTypes":["java.util.List"] }]
+},
+{
+  "name":"java.lang.Boolean",
+  "methods":[{"name":"parseBoolean","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"java.lang.Byte",
+  "methods":[{"name":"parseByte","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"java.lang.Double",
+  "methods":[{"name":"parseDouble","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"java.lang.Float",
+  "methods":[{"name":"parseFloat","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"java.lang.Integer",
+  "methods":[{"name":"parseInt","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"java.lang.Long",
+  "methods":[{"name":"parseLong","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"java.lang.ProcessHandle",
+  "methods":[
+    {"name":"current","parameterTypes":[] }, 
+    {"name":"pid","parameterTypes":[] }
+  ]
+},
+{
+  "name":"java.lang.Short",
+  "methods":[{"name":"parseShort","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"java.lang.management.ManagementFactory",
+  "methods":[{"name":"getRuntimeMXBean","parameterTypes":[] }]
+},
+{
+  "name":"java.lang.management.RuntimeMXBean",
+  "methods":[{"name":"getInputArguments","parameterTypes":[] }]
+},
+{
+  "name":"java.nio.Bits",
+  "fields":[{"name":"UNALIGNED"}]
+},
+{
+  "name":"java.nio.Buffer",
+  "fields":[{"name":"address"}]
+},
+{
+  "name":"java.nio.ByteBuffer",
+  "methods":[{"name":"alignedSlice","parameterTypes":["int"] }]
+},
+{
+  "name":"java.nio.DirectByteBuffer",
+  "methods":[{"name":"<init>","parameterTypes":["long","int"] }]
+},
+{
+  "name":"java.nio.channels.spi.SelectorProvider",
+  "methods":[
+    {"name":"openServerSocketChannel","parameterTypes":["java.net.ProtocolFamily"] }, 
+    {"name":"openSocketChannel","parameterTypes":["java.net.ProtocolFamily"] }
+  ]
+},
+{
+  "name":"java.security.SecureRandomParameters"
+},
+{
+  "name":"java.util.AbstractMap",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"java.util.ArrayList",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"java.util.Collections$UnmodifiableMap",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"java.util.HashMap",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"java.util.List"
+},
+{
+  "name":"java.util.Map"
+},
+{
+  "name":"javax.inject.Named",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"jdk.internal.misc.Unsafe",
+  "methods":[{"name":"getUnsafe","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.DefaultArtifactFilterManager",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.apache.maven.DefaultMaven",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.DefaultProjectDependenciesResolver",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.Maven"
+},
+{
+  "name":"org.apache.maven.ProjectDependenciesResolver"
+},
+{
+  "name":"org.apache.maven.ReactorReader",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["org.apache.maven.execution.MavenSession"] }]
+},
+{
+  "name":"org.apache.maven.artifact.deployer.ArtifactDeployer"
+},
+{
+  "name":"org.apache.maven.artifact.deployer.DefaultArtifactDeployer",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.artifact.factory.ArtifactFactory"
+},
+{
+  "name":"org.apache.maven.artifact.factory.DefaultArtifactFactory",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.artifact.handler.ArtifactHandler"
+},
+{
+  "name":"org.apache.maven.artifact.handler.DefaultArtifactHandler",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"setAddedToClasspath","parameterTypes":["boolean"] }, 
+    {"name":"setExtension","parameterTypes":["java.lang.String"] }, 
+    {"name":"setLanguage","parameterTypes":["java.lang.String"] }
+  ]
+},
+{
+  "name":"org.apache.maven.artifact.handler.DefaultArtifactHandler$__sisu10",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.artifact.handler.DefaultArtifactHandler$__sisu11",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.artifact.handler.DefaultArtifactHandler$__sisu12",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.artifact.handler.DefaultArtifactHandler$__sisu13",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.artifact.handler.DefaultArtifactHandler$__sisu14",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.artifact.handler.DefaultArtifactHandler$__sisu15",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.artifact.handler.DefaultArtifactHandler$__sisu16",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.artifact.handler.DefaultArtifactHandler$__sisu17",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.artifact.handler.DefaultArtifactHandler$__sisu18",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.artifact.handler.DefaultArtifactHandler$__sisu19",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.artifact.handler.DefaultArtifactHandler$__sisu9",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.artifact.handler.manager.ArtifactHandlerManager"
+},
+{
+  "name":"org.apache.maven.artifact.handler.manager.DefaultArtifactHandlerManager",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.artifact.installer.ArtifactInstaller"
+},
+{
+  "name":"org.apache.maven.artifact.installer.DefaultArtifactInstaller",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.artifact.manager.DefaultWagonManager",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.artifact.manager.WagonManager"
+},
+{
+  "name":"org.apache.maven.artifact.metadata.ArtifactMetadataSource"
+},
+{
+  "name":"org.apache.maven.artifact.repository.ArtifactRepositoryFactory"
+},
+{
+  "name":"org.apache.maven.artifact.repository.DefaultArtifactRepositoryFactory",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.artifact.repository.layout.ArtifactRepositoryLayout"
+},
+{
+  "name":"org.apache.maven.artifact.repository.layout.DefaultRepositoryLayout",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.artifact.repository.layout.FlatRepositoryLayout",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.artifact.repository.metadata.DefaultRepositoryMetadataManager",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.artifact.repository.metadata.RepositoryMetadataManager"
+},
+{
+  "name":"org.apache.maven.artifact.repository.metadata.io.DefaultMetadataReader",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.artifact.repository.metadata.io.MetadataReader"
+},
+{
+  "name":"org.apache.maven.artifact.resolver.ArtifactCollector"
+},
+{
+  "name":"org.apache.maven.artifact.resolver.ArtifactResolver"
+},
+{
+  "name":"org.apache.maven.artifact.resolver.DefaultArtifactCollector",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.artifact.resolver.DefaultArtifactResolver",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.artifact.resolver.DefaultResolutionErrorHandler",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.artifact.resolver.ResolutionErrorHandler"
+},
+{
+  "name":"org.apache.maven.bridge.MavenRepositorySystem",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.classrealm.ClassRealmManager"
+},
+{
+  "name":"org.apache.maven.classrealm.DefaultClassRealmManager",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["org.codehaus.plexus.logging.Logger","org.codehaus.plexus.PlexusContainer","java.util.List","org.apache.maven.extension.internal.CoreExportsProvider"] }]
+},
+{
+  "name":"org.apache.maven.cli.MavenCli",
+  "methods":[{"name":"main","parameterTypes":["java.lang.String[]","org.codehaus.plexus.classworlds.ClassWorld"] }]
+},
+{
+  "name":"org.apache.maven.cli.MavenCli$1",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.apache.maven.cli.configuration.SettingsXmlConfigurationProcessor",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.cli.internal.BootstrapCoreExtensionManager",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.apache.maven.cli.logging.Slf4jLogger",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.apache.maven.cli.logging.Slf4jLoggerManager",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.cli.logging.impl.Slf4jSimpleConfiguration",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.configuration.BeanConfigurator"
+},
+{
+  "name":"org.apache.maven.configuration.internal.DefaultBeanConfigurator",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.eventspy.EventSpy"
+},
+{
+  "name":"org.apache.maven.eventspy.internal.EventSpyDispatcher",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"setEventSpies","parameterTypes":["java.util.List"] }
+  ]
+},
+{
+  "name":"org.apache.maven.exception.DefaultExceptionHandler",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.exception.ExceptionHandler"
+},
+{
+  "name":"org.apache.maven.execution.DefaultMavenExecutionRequestPopulator",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["org.apache.maven.bridge.MavenRepositorySystem"] }]
+},
+{
+  "name":"org.apache.maven.execution.DefaultRuntimeInformation",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.execution.MojoExecutionListener"
+},
+{
+  "name":"org.apache.maven.execution.RuntimeInformation"
+},
+{
+  "name":"org.apache.maven.execution.scope.internal.MojoExecutionScope",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.apache.maven.execution.scope.internal.MojoExecutionScope$1",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.apache.maven.execution.scope.internal.MojoExecutionScopeCoreModule",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.execution.scope.internal.MojoExecutionScopeModule",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.apache.maven.extension.internal.CoreExports",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.apache.maven.extension.internal.CoreExportsProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["org.codehaus.plexus.PlexusContainer","org.apache.maven.extension.internal.CoreExports"] }]
+},
+{
+  "name":"org.apache.maven.graph.DefaultGraphBuilder",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.graph.GraphBuilder"
+},
+{
+  "name":"org.apache.maven.internal.aether.DefaultRepositorySystemSessionFactory",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.lifecycle.DefaultLifecycleExecutor",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.lifecycle.DefaultLifecycles",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.lifecycle.LifeCyclePluginAnalyzer"
+},
+{
+  "name":"org.apache.maven.lifecycle.Lifecycle",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.lifecycle.Lifecycle$__sisu7",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.lifecycle.Lifecycle$__sisu8",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.lifecycle.LifecycleExecutor"
+},
+{
+  "name":"org.apache.maven.lifecycle.LifecycleMappingDelegate"
+},
+{
+  "name":"org.apache.maven.lifecycle.MojoExecutionConfigurator"
+},
+{
+  "name":"org.apache.maven.lifecycle.internal.BuildListCalculator",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.lifecycle.internal.DefaultExecutionEventCatapult",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.lifecycle.internal.DefaultLifecycleExecutionPlanCalculator",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.lifecycle.internal.DefaultLifecycleMappingDelegate",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.lifecycle.internal.DefaultLifecyclePluginAnalyzer",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.lifecycle.internal.DefaultLifecycleTaskSegmentCalculator",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.lifecycle.internal.DefaultMojoExecutionConfigurator",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.lifecycle.internal.DefaultProjectArtifactFactory",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["org.apache.maven.artifact.factory.ArtifactFactory"] }]
+},
+{
+  "name":"org.apache.maven.lifecycle.internal.ExecutionEventCatapult"
+},
+{
+  "name":"org.apache.maven.lifecycle.internal.LifecycleDebugLogger",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.lifecycle.internal.LifecycleDependencyResolver",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.lifecycle.internal.LifecycleExecutionPlanCalculator"
+},
+{
+  "name":"org.apache.maven.lifecycle.internal.LifecycleModuleBuilder",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"setProjectExecutionListeners","parameterTypes":["java.util.List"] }
+  ]
+},
+{
+  "name":"org.apache.maven.lifecycle.internal.LifecyclePluginResolver",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.lifecycle.internal.LifecycleStarter",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.lifecycle.internal.LifecycleTaskSegmentCalculator"
+},
+{
+  "name":"org.apache.maven.lifecycle.internal.MojoDescriptorCreator",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.lifecycle.internal.MojoExecutor",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.lifecycle.internal.builder.Builder"
+},
+{
+  "name":"org.apache.maven.lifecycle.internal.builder.BuilderCommon",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.lifecycle.internal.builder.multithreaded.MultiThreadedBuilder",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.lifecycle.mapping.DefaultLifecycleMapping",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.lifecycle.mapping.DefaultLifecycleMapping$__sisu1",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.lifecycle.mapping.DefaultLifecycleMapping$__sisu2",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.lifecycle.mapping.DefaultLifecycleMapping$__sisu3",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.lifecycle.mapping.DefaultLifecycleMapping$__sisu4",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.lifecycle.mapping.DefaultLifecycleMapping$__sisu5",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.lifecycle.mapping.DefaultLifecycleMapping$__sisu6",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.lifecycle.mapping.Lifecycle",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"setId","parameterTypes":["java.lang.String"] }, 
+    {"name":"setPhases","parameterTypes":["java.util.Map"] }
+  ]
+},
+{
+  "name":"org.apache.maven.lifecycle.mapping.LifecycleMapping"
+},
+{
+  "name":"org.apache.maven.lifecycle.mapping.LifecyclePhase",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"org.apache.maven.model.Build",
+  "queryAllPublicMethods":true,
+  "methods":[
+    {"name":"getOutputDirectory","parameterTypes":[] }, 
+    {"name":"getSourceDirectory","parameterTypes":[] }, 
+    {"name":"getTestSourceDirectory","parameterTypes":[] }
+  ]
+},
+{
+  "name":"org.apache.maven.model.BuildBase",
+  "methods":[
+    {"name":"getDirectory","parameterTypes":[] }, 
+    {"name":"getFinalName","parameterTypes":[] }
+  ]
+},
+{
+  "name":"org.apache.maven.model.Model",
+  "queryAllPublicMethods":true,
+  "methods":[
+    {"name":"getArtifactId","parameterTypes":[] }, 
+    {"name":"getBuild","parameterTypes":[] }, 
+    {"name":"getDescription","parameterTypes":[] }, 
+    {"name":"getGroupId","parameterTypes":[] }, 
+    {"name":"getName","parameterTypes":[] }, 
+    {"name":"getOrganization","parameterTypes":[] }, 
+    {"name":"getParent","parameterTypes":[] }, 
+    {"name":"getPrerequisites","parameterTypes":[] }, 
+    {"name":"getScm","parameterTypes":[] }, 
+    {"name":"getUrl","parameterTypes":[] }, 
+    {"name":"getVersion","parameterTypes":[] }
+  ]
+},
+{
+  "name":"org.apache.maven.model.ModelBase",
+  "methods":[{"name":"getReporting","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.model.Organization",
+  "queryAllPublicMethods":true,
+  "methods":[{"name":"getName","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.model.Parent",
+  "queryAllPublicMethods":true,
+  "methods":[{"name":"getVersion","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.model.Prerequisites",
+  "queryAllPublicMethods":true,
+  "methods":[{"name":"getMaven","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.model.Reporting",
+  "queryAllPublicMethods":true,
+  "methods":[{"name":"getOutputDirectory","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.model.Scm",
+  "queryAllPublicMethods":true,
+  "methods":[
+    {"name":"getConnection","parameterTypes":[] }, 
+    {"name":"getDeveloperConnection","parameterTypes":[] }, 
+    {"name":"getTag","parameterTypes":[] }, 
+    {"name":"getUrl","parameterTypes":[] }
+  ]
+},
+{
+  "name":"org.apache.maven.model.building.DefaultModelBuilder",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.model.building.DefaultModelProcessor",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.model.building.ModelBuilder"
+},
+{
+  "name":"org.apache.maven.model.building.ModelProcessor"
+},
+{
+  "name":"org.apache.maven.model.composition.DefaultDependencyManagementImporter",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.model.inheritance.DefaultInheritanceAssembler",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.model.interpolation.AbstractStringBasedModelInterpolator",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.apache.maven.model.interpolation.StringVisitorModelInterpolator",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.model.io.DefaultModelReader",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.model.io.DefaultModelWriter",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.model.locator.DefaultModelLocator",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.model.management.DefaultDependencyManagementInjector",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.model.management.DefaultPluginManagementInjector",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.model.normalization.DefaultModelNormalizer",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.model.path.DefaultModelPathTranslator",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.model.path.DefaultModelUrlNormalizer",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.model.path.DefaultPathTranslator",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.model.path.DefaultUrlNormalizer",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.model.plugin.DefaultLifecycleBindingsInjector",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.model.plugin.DefaultPluginConfigurationExpander",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.model.plugin.DefaultReportConfigurationExpander",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.model.plugin.DefaultReportingConverter",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.model.plugin.LifecycleBindingsInjector"
+},
+{
+  "name":"org.apache.maven.model.profile.DefaultProfileInjector",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.model.profile.DefaultProfileSelector",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.model.profile.activation.FileProfileActivator",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.model.profile.activation.JdkVersionProfileActivator",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.model.profile.activation.OperatingSystemProfileActivator",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.model.profile.activation.PropertyProfileActivator",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.model.superpom.DefaultSuperPomProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.model.validation.DefaultModelValidator",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.plugin.AbstractMojo",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.apache.maven.plugin.BuildPluginManager"
+},
+{
+  "name":"org.apache.maven.plugin.DefaultBuildPluginManager",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"setMojoExecutionListeners","parameterTypes":["java.util.List"] }
+  ]
+},
+{
+  "name":"org.apache.maven.plugin.DefaultExtensionRealmCache",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.plugin.DefaultPluginArtifactsCache",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.plugin.DefaultPluginDescriptorCache",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.plugin.DefaultPluginRealmCache",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.plugin.ExtensionRealmCache"
+},
+{
+  "name":"org.apache.maven.plugin.LegacySupport"
+},
+{
+  "name":"org.apache.maven.plugin.MavenPluginManager"
+},
+{
+  "name":"org.apache.maven.plugin.Mojo"
+},
+{
+  "name":"org.apache.maven.plugin.PluginArtifactsCache"
+},
+{
+  "name":"org.apache.maven.plugin.PluginDescriptorCache"
+},
+{
+  "name":"org.apache.maven.plugin.PluginManager"
+},
+{
+  "name":"org.apache.maven.plugin.PluginRealmCache"
+},
+{
+  "name":"org.apache.maven.plugin.descriptor.PluginDescriptor",
+  "queryAllPublicMethods":true,
+  "methods":[{"name":"getArtifacts","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.plugin.internal.DefaultLegacySupport",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.plugin.internal.DefaultMavenPluginManager",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.plugin.internal.DefaultPluginManager",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.plugin.internal.PluginDependenciesResolver"
+},
+{
+  "name":"org.apache.maven.plugin.prefix.PluginPrefixResolver"
+},
+{
+  "name":"org.apache.maven.plugin.prefix.internal.DefaultPluginPrefixResolver",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.plugin.version.PluginVersionResolver"
+},
+{
+  "name":"org.apache.maven.plugin.version.internal.DefaultPluginVersionResolver",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.profiles.DefaultMavenProfilesBuilder",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.profiles.MavenProfilesBuilder"
+},
+{
+  "name":"org.apache.maven.project.DefaultMavenProjectBuilder",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.project.DefaultMavenProjectHelper",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.project.DefaultProjectBuilder",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.project.DefaultProjectBuildingHelper",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.project.DefaultProjectDependenciesResolver",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.project.DefaultProjectRealmCache",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.project.MavenProjectBuilder"
+},
+{
+  "name":"org.apache.maven.project.MavenProjectHelper"
+},
+{
+  "name":"org.apache.maven.project.ProjectBuilder"
+},
+{
+  "name":"org.apache.maven.project.ProjectBuildingHelper"
+},
+{
+  "name":"org.apache.maven.project.ProjectDependenciesResolver"
+},
+{
+  "name":"org.apache.maven.project.ProjectRealmCache"
+},
+{
+  "name":"org.apache.maven.project.artifact.DefaultMavenMetadataCache",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.project.artifact.DefaultMetadataSource",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.project.artifact.DefaultProjectArtifactsCache",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.project.artifact.MavenMetadataCache"
+},
+{
+  "name":"org.apache.maven.project.artifact.MavenMetadataSource",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.project.artifact.ProjectArtifactsCache"
+},
+{
+  "name":"org.apache.maven.project.inheritance.DefaultModelInheritanceAssembler",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.project.inheritance.ModelInheritanceAssembler"
+},
+{
+  "name":"org.apache.maven.project.interpolation.AbstractStringBasedModelInterpolator",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.apache.maven.project.interpolation.ModelInterpolator"
+},
+{
+  "name":"org.apache.maven.project.interpolation.StringSearchModelInterpolator",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.project.path.DefaultPathTranslator",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.project.path.PathTranslator"
+},
+{
+  "name":"org.apache.maven.project.validation.DefaultModelValidator",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.project.validation.ModelValidator"
+},
+{
+  "name":"org.apache.maven.repository.DefaultMirrorSelector",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.repository.MirrorSelector"
+},
+{
+  "name":"org.apache.maven.repository.RepositorySystem"
+},
+{
+  "name":"org.apache.maven.repository.internal.DefaultArtifactDescriptorReader",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["org.eclipse.aether.impl.RemoteRepositoryManager","org.eclipse.aether.impl.VersionResolver","org.eclipse.aether.impl.VersionRangeResolver","org.eclipse.aether.impl.ArtifactResolver","org.apache.maven.model.building.ModelBuilder","org.eclipse.aether.impl.RepositoryEventDispatcher"] }]
+},
+{
+  "name":"org.apache.maven.repository.internal.DefaultVersionRangeResolver",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["org.eclipse.aether.impl.MetadataResolver","org.eclipse.aether.impl.SyncContextFactory","org.eclipse.aether.impl.RepositoryEventDispatcher"] }]
+},
+{
+  "name":"org.apache.maven.repository.internal.DefaultVersionResolver",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["org.eclipse.aether.impl.MetadataResolver","org.eclipse.aether.impl.SyncContextFactory","org.eclipse.aether.impl.RepositoryEventDispatcher"] }]
+},
+{
+  "name":"org.apache.maven.repository.internal.SnapshotMetadataGeneratorFactory",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.repository.internal.VersionsMetadataGeneratorFactory",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.repository.legacy.DefaultUpdateCheckManager",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.repository.legacy.DefaultWagonManager",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.repository.legacy.LegacyRepositorySystem",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.repository.legacy.UpdateCheckManager"
+},
+{
+  "name":"org.apache.maven.repository.legacy.WagonManager"
+},
+{
+  "name":"org.apache.maven.repository.legacy.repository.ArtifactRepositoryFactory"
+},
+{
+  "name":"org.apache.maven.repository.legacy.repository.DefaultArtifactRepositoryFactory",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.repository.legacy.resolver.DefaultLegacyArtifactCollector",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.repository.legacy.resolver.LegacyArtifactCollector"
+},
+{
+  "name":"org.apache.maven.repository.legacy.resolver.conflict.ConflictResolver"
+},
+{
+  "name":"org.apache.maven.repository.legacy.resolver.conflict.ConflictResolverFactory"
+},
+{
+  "name":"org.apache.maven.repository.legacy.resolver.conflict.DefaultConflictResolver",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.repository.legacy.resolver.conflict.DefaultConflictResolverFactory",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.repository.legacy.resolver.conflict.FarthestConflictResolver",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.repository.legacy.resolver.conflict.NearestConflictResolver",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.repository.legacy.resolver.conflict.NewestConflictResolver",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.repository.legacy.resolver.conflict.OldestConflictResolver",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.repository.legacy.resolver.transform.AbstractVersionTransformation",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.apache.maven.repository.legacy.resolver.transform.ArtifactTransformation"
+},
+{
+  "name":"org.apache.maven.repository.legacy.resolver.transform.ArtifactTransformationManager"
+},
+{
+  "name":"org.apache.maven.repository.legacy.resolver.transform.DefaultArtifactTransformationManager",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.repository.legacy.resolver.transform.LatestArtifactTransformation",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.repository.legacy.resolver.transform.ReleaseArtifactTransformation",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.repository.legacy.resolver.transform.SnapshotTransformation",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.repository.metadata.ClasspathTransformation"
+},
+{
+  "name":"org.apache.maven.repository.metadata.DefaultClasspathTransformation",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.repository.metadata.DefaultGraphConflictResolutionPolicy",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.repository.metadata.DefaultGraphConflictResolver",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.repository.metadata.GraphConflictResolutionPolicy"
+},
+{
+  "name":"org.apache.maven.repository.metadata.GraphConflictResolver"
+},
+{
+  "name":"org.apache.maven.rtinfo.RuntimeInformation"
+},
+{
+  "name":"org.apache.maven.rtinfo.internal.DefaultRuntimeInformation",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.session.scope.internal.SessionScope",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.apache.maven.session.scope.internal.SessionScope$1",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.apache.maven.session.scope.internal.SessionScopeModule",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.settings.DefaultMavenSettingsBuilder",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.settings.MavenSettingsBuilder"
+},
+{
+  "name":"org.apache.maven.settings.building.DefaultSettingsBuilder",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["org.apache.maven.settings.io.SettingsReader","org.apache.maven.settings.io.SettingsWriter","org.apache.maven.settings.validation.SettingsValidator"] }]
+},
+{
+  "name":"org.apache.maven.settings.crypto.DefaultSettingsDecrypter",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["org.sonatype.plexus.components.sec.dispatcher.SecDispatcher"] }]
+},
+{
+  "name":"org.apache.maven.settings.crypto.SettingsDecrypter"
+},
+{
+  "name":"org.apache.maven.settings.io.DefaultSettingsReader",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.settings.io.DefaultSettingsWriter",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.settings.validation.DefaultSettingsValidator",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.shared.transfer.artifact.deploy.ArtifactDeployer"
+},
+{
+  "name":"org.apache.maven.shared.transfer.artifact.deploy.internal.DefaultArtifactDeployer",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.shared.transfer.artifact.deploy.internal.Maven30ArtifactDeployer",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.apache.maven.shared.transfer.artifact.deploy.internal.Maven31ArtifactDeployer",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.shared.transfer.artifact.install.ArtifactInstaller"
+},
+{
+  "name":"org.apache.maven.shared.transfer.artifact.install.internal.DefaultArtifactInstaller",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.shared.transfer.artifact.install.internal.Maven30ArtifactInstaller",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.apache.maven.shared.transfer.artifact.install.internal.Maven31ArtifactInstaller",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.shared.transfer.artifact.resolve.ArtifactResolver"
+},
+{
+  "name":"org.apache.maven.shared.transfer.artifact.resolve.internal.DefaultArtifactResolver",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.shared.transfer.artifact.resolve.internal.Maven30ArtifactResolver",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.apache.maven.shared.transfer.artifact.resolve.internal.Maven31ArtifactResolver",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.shared.transfer.dependencies.collect.DependencyCollector"
+},
+{
+  "name":"org.apache.maven.shared.transfer.dependencies.collect.internal.DefaultDependencyCollector",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.shared.transfer.dependencies.collect.internal.Maven30DependencyCollector",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.apache.maven.shared.transfer.dependencies.collect.internal.Maven31DependencyCollector",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.shared.transfer.dependencies.resolve.DependencyResolver"
+},
+{
+  "name":"org.apache.maven.shared.transfer.dependencies.resolve.internal.DefaultDependencyResolver",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.shared.transfer.dependencies.resolve.internal.Maven30DependencyResolver",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.apache.maven.shared.transfer.dependencies.resolve.internal.Maven31DependencyResolver",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.shared.transfer.project.deploy.ProjectDeployer"
+},
+{
+  "name":"org.apache.maven.shared.transfer.project.deploy.internal.DefaultProjectDeployer",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.shared.transfer.project.install.ProjectInstaller"
+},
+{
+  "name":"org.apache.maven.shared.transfer.project.install.internal.DefaultProjectInstaller",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.shared.transfer.repository.RepositoryManager"
+},
+{
+  "name":"org.apache.maven.shared.transfer.repository.internal.DefaultRepositoryManager",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.shared.transfer.repository.internal.Maven302RepositoryManager"
+},
+{
+  "name":"org.apache.maven.shared.transfer.repository.internal.Maven30RepositoryManager",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.apache.maven.shared.transfer.repository.internal.Maven31RepositoryManager",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.toolchain.DefaultToolchainManager",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.toolchain.DefaultToolchainManagerPrivate",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.toolchain.DefaultToolchainsBuilder",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.toolchain.ToolchainFactory"
+},
+{
+  "name":"org.apache.maven.toolchain.ToolchainManager"
+},
+{
+  "name":"org.apache.maven.toolchain.ToolchainManagerPrivate"
+},
+{
+  "name":"org.apache.maven.toolchain.ToolchainsBuilder"
+},
+{
+  "name":"org.apache.maven.toolchain.building.DefaultToolchainsBuilder",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.toolchain.io.DefaultToolchainsReader",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.toolchain.io.DefaultToolchainsWriter",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.toolchain.java.JavaToolchainFactory",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.wagon.AbstractWagon",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.apache.maven.wagon.StreamWagon",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.apache.maven.wagon.Wagon"
+},
+{
+  "name":"org.apache.maven.wagon.providers.file.FileWagon",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.wagon.providers.http.HttpWagon",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.wagon.providers.http.HttpWagon$__sisu20",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.maven.wagon.providers.http.wagon.shared.AbstractHttpClientWagon",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.codehaus.mojo.exec.AbstractExecMojo",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.codehaus.mojo.exec.ExecJavaMojo",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.codehaus.mojo.exec.ExecMojo",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.codehaus.mojo.exec.HelpMojo",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.codehaus.mojo.exec.PathsToolchainFactory",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.codehaus.plexus.DefaultPlexusContainer",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"setLoggerManager","parameterTypes":["org.codehaus.plexus.logging.LoggerManager"] }
+  ]
+},
+{
+  "name":"org.codehaus.plexus.DefaultPlexusContainer$BootModule",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.codehaus.plexus.DefaultPlexusContainer$ContainerModule",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.codehaus.plexus.DefaultPlexusContainer$DefaultsModule",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.codehaus.plexus.DefaultPlexusContainer$LoggerManagerProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.codehaus.plexus.DefaultPlexusContainer$LoggerProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.codehaus.plexus.PlexusContainer"
+},
+{
+  "name":"org.codehaus.plexus.classworlds.ClassWorld"
+},
+{
+  "name":"org.codehaus.plexus.classworlds.launcher.Launcher",
+  "methods":[{"name":"main","parameterTypes":["java.lang.String[]"] }]
+},
+{
+  "name":"org.codehaus.plexus.classworlds.realm.ClassRealm",
+  "methods":[{"name":"getImportRealms","parameterTypes":[] }]
+},
+{
+  "name":"org.codehaus.plexus.component.annotations.Requirement",
+  "methods":[{"name":"optional","parameterTypes":[] }]
+},
+{
+  "name":"org.codehaus.plexus.component.configurator.AbstractComponentConfigurator",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.codehaus.plexus.component.configurator.BasicComponentConfigurator",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.codehaus.plexus.component.configurator.ComponentConfigurator"
+},
+{
+  "name":"org.codehaus.plexus.component.configurator.MapOrientedComponentConfigurator",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.codehaus.plexus.context.DefaultContext",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.codehaus.plexus.logging.AbstractLogEnabled",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.codehaus.plexus.logging.AbstractLogger",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.codehaus.plexus.logging.AbstractLoggerManager",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.codehaus.plexus.logging.LoggerManager"
+},
+{
+  "name":"org.codehaus.plexus.logging.console.ConsoleLogger",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.codehaus.plexus.logging.console.ConsoleLoggerManager",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.eclipse.aether.RepositorySystem"
+},
+{
+  "name":"org.eclipse.aether.connector.basic.BasicRepositoryConnectorFactory",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.eclipse.aether.impl.RemoteRepositoryManager"
+},
+{
+  "name":"org.eclipse.aether.internal.impl.DefaultArtifactResolver",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["org.eclipse.aether.spi.io.FileProcessor","org.eclipse.aether.impl.RepositoryEventDispatcher","org.eclipse.aether.impl.VersionResolver","org.eclipse.aether.impl.UpdateCheckManager","org.eclipse.aether.impl.RepositoryConnectorProvider","org.eclipse.aether.impl.RemoteRepositoryManager","org.eclipse.aether.impl.SyncContextFactory","org.eclipse.aether.impl.OfflineController"] }]
+},
+{
+  "name":"org.eclipse.aether.internal.impl.DefaultChecksumPolicyProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.eclipse.aether.internal.impl.DefaultDeployer",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["org.eclipse.aether.spi.io.FileProcessor","org.eclipse.aether.impl.RepositoryEventDispatcher","org.eclipse.aether.impl.RepositoryConnectorProvider","org.eclipse.aether.impl.RemoteRepositoryManager","org.eclipse.aether.impl.UpdateCheckManager","java.util.Set","org.eclipse.aether.impl.SyncContextFactory","org.eclipse.aether.impl.OfflineController"] }]
+},
+{
+  "name":"org.eclipse.aether.internal.impl.DefaultFileProcessor",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.eclipse.aether.internal.impl.DefaultInstaller",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["org.eclipse.aether.spi.io.FileProcessor","org.eclipse.aether.impl.RepositoryEventDispatcher","java.util.Set","org.eclipse.aether.impl.SyncContextFactory"] }]
+},
+{
+  "name":"org.eclipse.aether.internal.impl.DefaultLocalRepositoryProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["java.util.Set"] }]
+},
+{
+  "name":"org.eclipse.aether.internal.impl.DefaultMetadataResolver",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["org.eclipse.aether.impl.RepositoryEventDispatcher","org.eclipse.aether.impl.UpdateCheckManager","org.eclipse.aether.impl.RepositoryConnectorProvider","org.eclipse.aether.impl.RemoteRepositoryManager","org.eclipse.aether.impl.SyncContextFactory","org.eclipse.aether.impl.OfflineController"] }]
+},
+{
+  "name":"org.eclipse.aether.internal.impl.DefaultOfflineController",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.eclipse.aether.internal.impl.DefaultRemoteRepositoryManager",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["org.eclipse.aether.impl.UpdatePolicyAnalyzer","org.eclipse.aether.spi.connector.checksum.ChecksumPolicyProvider"] }]
+},
+{
+  "name":"org.eclipse.aether.internal.impl.DefaultRepositoryConnectorProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["java.util.Set"] }]
+},
+{
+  "name":"org.eclipse.aether.internal.impl.DefaultRepositoryEventDispatcher",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["java.util.Set"] }]
+},
+{
+  "name":"org.eclipse.aether.internal.impl.DefaultRepositoryLayoutProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.eclipse.aether.internal.impl.DefaultRepositorySystem",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["org.eclipse.aether.impl.VersionResolver","org.eclipse.aether.impl.VersionRangeResolver","org.eclipse.aether.impl.ArtifactResolver","org.eclipse.aether.impl.MetadataResolver","org.eclipse.aether.impl.ArtifactDescriptorReader","org.eclipse.aether.impl.DependencyCollector","org.eclipse.aether.impl.Installer","org.eclipse.aether.impl.Deployer","org.eclipse.aether.impl.LocalRepositoryProvider","org.eclipse.aether.impl.SyncContextFactory","org.eclipse.aether.impl.RemoteRepositoryManager"] }]
+},
+{
+  "name":"org.eclipse.aether.internal.impl.DefaultSyncContextFactory",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.eclipse.aether.internal.impl.DefaultTransporterProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.eclipse.aether.internal.impl.DefaultUpdateCheckManager",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["org.eclipse.aether.impl.UpdatePolicyAnalyzer"] }]
+},
+{
+  "name":"org.eclipse.aether.internal.impl.DefaultUpdatePolicyAnalyzer",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.eclipse.aether.internal.impl.EnhancedLocalRepositoryManagerFactory",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.eclipse.aether.internal.impl.LoggerFactoryProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.eclipse.aether.internal.impl.Maven2RepositoryLayoutFactory",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.eclipse.aether.internal.impl.SimpleLocalRepositoryManagerFactory",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.eclipse.aether.internal.impl.collect.DefaultDependencyCollector",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["org.eclipse.aether.impl.RemoteRepositoryManager","org.eclipse.aether.impl.ArtifactDescriptorReader","org.eclipse.aether.impl.VersionRangeResolver"] }]
+},
+{
+  "name":"org.eclipse.aether.internal.impl.slf4j.Slf4jLoggerFactory",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.eclipse.aether.internal.transport.wagon.PlexusWagonConfigurator",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.eclipse.aether.internal.transport.wagon.PlexusWagonProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.eclipse.aether.transport.wagon.WagonTransporterFactory",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.eclipse.sisu.Parameters",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.eclipse.sisu.bean.BeanScheduler",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.eclipse.sisu.inject.DefaultBeanLocator",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"autoPublish","parameterTypes":["com.google.inject.Injector"] }]
+},
+{
+  "name":"org.eclipse.sisu.inject.DefaultRankingFunction",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.eclipse.sisu.inject.TypeArguments$Implicit",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.eclipse.sisu.plexus.DefaultPlexusBeanLocator",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.eclipse.sisu.plexus.PlexusBindingModule",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.eclipse.sisu.plexus.PlexusDateTypeConverter",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.eclipse.sisu.plexus.PlexusLifecycleManager",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.eclipse.sisu.plexus.PlexusXmlBeanConverter",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["com.google.inject.Injector"] }]
+},
+{
+  "name":"org.eclipse.sisu.space.AbstractDeferredClass",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.eclipse.sisu.space.LoadedClass",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.eclipse.sisu.space.NamedClass",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.eclipse.sisu.space.URLClassSpace",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.eclipse.sisu.space.WildcardKey$Qualified",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.eclipse.sisu.wire.BeanProviders$3",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.eclipse.sisu.wire.BeanProviders$4",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.eclipse.sisu.wire.BeanProviders$6",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.eclipse.sisu.wire.BeanProviders$7",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.eclipse.sisu.wire.ElementAnalyzer$1",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.eclipse.sisu.wire.MergedProperties",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.eclipse.sisu.wire.PlaceholderBeanProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.eclipse.sisu.wire.TypeConverterCache",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["com.google.inject.Injector"] }]
+},
+{
+  "name":"org.eclipse.sisu.wire.WireModule",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.fusesource.jansi.Ansi"
+},
+{
+  "name":"org.slf4j.impl.MavenSimpleLoggerFactory",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.slf4j.impl.SimpleLoggerFactory",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.sonatype.plexus.components.cipher.DefaultPlexusCipher",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.sonatype.plexus.components.cipher.PlexusCipher"
+},
+{
+  "name":"org.sonatype.plexus.components.sec.dispatcher.DefaultSecDispatcher",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"<init>","parameterTypes":["org.sonatype.plexus.components.cipher.PlexusCipher","java.util.Map","java.lang.String"] }
+  ]
+},
+{
+  "name":"org.sonatype.plexus.components.sec.dispatcher.PasswordDecryptor"
+},
+{
+  "name":"org.sonatype.plexus.components.sec.dispatcher.SecDispatcher"
+},
+{
+  "name":"sun.misc.Unsafe",
+  "allDeclaredFields":true,
+  "methods":[
+    {"name":"copyMemory","parameterTypes":["java.lang.Object","long","java.lang.Object","long","long"] }, 
+    {"name":"getAndAddLong","parameterTypes":["java.lang.Object","long","long"] }, 
+    {"name":"getAndSetObject","parameterTypes":["java.lang.Object","long","java.lang.Object"] }, 
+    {"name":"invokeCleaner","parameterTypes":["java.nio.ByteBuffer"] }, 
+    {"name":"storeFence","parameterTypes":[] }
+  ]
+},
+{
+  "name":"sun.nio.ch.SelectorImpl",
+  "fields":[
+    {"name":"publicSelectedKeys"}, 
+    {"name":"selectedKeys"}
+  ]
+},
+{
+  "name":"sun.security.provider.MD5",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.provider.NativePRNG",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.provider.SHA",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+}
+]
